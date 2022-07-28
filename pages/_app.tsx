@@ -13,7 +13,6 @@ import { createMuiTheme } from "@material-ui/core/styles";
 import {
   AppBar,
   Toolbar,
-  Typography,
   CssBaseline,
   useScrollTrigger,
   Fab,
@@ -86,14 +85,7 @@ function MyAppWithTheme(props: AppProps) {
   const paletteType = darkMode ? "dark" : "light";
   const theme = createMuiTheme({
     palette: {
-      // primary: deepPurple,
       secondary: paletteType === "dark" ? lime : red,
-      // error: {
-      //   main: red.A400,
-      // },
-      // background: {
-      //   default: "#fff",
-      // },
       type: paletteType,
       background: {
         default: paletteType === "dark" ? "#161625" : "#fafafa",
@@ -103,7 +95,7 @@ function MyAppWithTheme(props: AppProps) {
     overrides: {
       MuiAppBar: {
         colorPrimary: {
-          backgroundColor: paletteType === "dark" ? "#091c34" : "#ccff90",
+          backgroundColor: paletteType === "dark" ? "#091c34" : "#F0F9FF",
           color: paletteType === "light" ? "rgba(0, 0, 0, 0.87)" : "#fafafa",
         },
       },
@@ -359,8 +351,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
       <CssBaseline />
       <AppBar component="nav">
         <Toolbar>
-          {/* <Link href="/" passHref> */}
-          <Typography
+          <Box
             onClick={() => {
               if (router.pathname === "/") {
                 scroller.scrollTo("home", {
@@ -375,13 +366,14 @@ export function MyApp({ Component, pageProps }: AppProps) {
                 });
               }
             }}
-            // color="inherit"
+            component="img"
             className={classes.logo}
-            // component="a"
-            // href="/#"
-            variant="h6"
-          >{`< psteger />`}</Typography>
-          {/* </Link> */}
+            sx={{
+              height: 48,
+            }}
+            alt="psteger Logo"
+            src="/assets/logo.svg"
+          />
           <div className={classes.navbarRight}>
             <Hidden mdDown>
               <Box mr={2}>

@@ -15,7 +15,7 @@ const projects: ProjectType[] = [
   allProjects.doohit,
 //  allProjects.oko,
   allProjects.closed,
-  allProjects.butlers,
+  allProjects.parkcruise,
 ];
 
 const IndexPage = () => {

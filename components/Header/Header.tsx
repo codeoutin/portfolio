@@ -14,7 +14,7 @@ import lightHeader from "public/assets/backgrounds/blob-scene-light.svg";
 import darkHeader from "public/assets/backgrounds/blob-scene-dark.svg";
 import HeaderText from "./HeaderText";
 
-function Header() {
+function Header() { 
   const darkMode = useDarkMode();
 
   const useStyles = makeStyles((theme: Theme) =>

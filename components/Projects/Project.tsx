@@ -38,7 +38,7 @@ function Project({
   const theme = useTheme();
   const odd = index % 2 === 1 ? true : false;
   const darkMode = useDarkMode();
-  const colorLight = "#dfffdc";
+  const colorLight = "#DCF6FF";
   const colorDark = "#070422";
   const useStyles = makeStyles((theme: Theme) =>
     createStyles({

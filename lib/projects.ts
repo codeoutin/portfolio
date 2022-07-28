@@ -33,10 +33,9 @@ const projects: Projects = {
   doohit: {
     title: "dooh-it by PWM",
     description: [
-      "A business content management app to create digital ad campaigns on gas station screens. Users can **book** campaigns, **manage** locations and displays for bookings and admins can **manage** payments, customers, permissions and modify serval settings.",
-      "Created in 2020 and still in active development",
-      "SPA with strong role and permission system for different user types. Includes email service, PDF generation for invoices and quotations and AWS connectivity",
-      "Fullstack application with **Vue.js** on the frontend & **Laravel / PHP** on the backend. All parts are modular and customizable to fit customers needs.",
+      "A **business content management** app to create digital ad campaigns on gas station screens. Built as **SPA** with easy to use role and permission system for different user types. Includes bookings with previews, live maps, timezones, automatic email services, PDF generation for invoices, quotations and business analyses and AWS connectivity.",
+      "Created in 2020 and still in active development and used by a daily growing user base.",
+      "Fullstack application with **Vue.js** on the frontend & **Laravel / PHP** on the backend and serval secured **REST API** services. All parts are modular and customizable to fit customers needs.",
     ],
     images: {
       main: {
@@ -77,15 +76,14 @@ const projects: Projects = {
   closed: {
     title: "Closed Ecommerce",
     description: [
-      "Development of features and templates for **Closed Ecommerce.**",
-      "I made (fully responsible) microsites from Sketch templates, added features to the backend of the shopfront, integrated and created various Cypress tests",
-      "The shop system is built on OXID eShop.",
+      "Development of features and templates for **Closed**. The ecommerce platform is based on a highly customized OXID eShop",
+      "Design and coding of (fully responsible) microsites out of Sketch templates, implementation of features for the backend of the shopfront, integration of **Cypress** and writing of tests",
     ],
     images: {
       main: {
-        link: "/project/closed/closed.jpeg",
+        link: "/project/closed/closed.png",
         width: 890,
-        height: 584,
+        height: 557,
       },
     },
     stack: [logos.php, logos.cypress, logos.git, logos.gitlab, logos.javascript],
@@ -116,10 +114,9 @@ const projects: Projects = {
   parkcruise: {
     title: "Park+Cruise",
     description: [
-      "Booking platform for cruise passengers made by me and my coworker at **Kuehne+Nagel**",
-      "The platform was designed and built from scratch. The backend is made with **Java** and **Spring Boot Microservices** with 100% test coverage , the frontend is **HTML5** with **Vanilla JS** and **jQuery** and a **custom made CSS Library** using SASS.",
-      "There were two apps, one for users and travel agencies to book, pay and **manage parking on cruises**. The other app was for admins to manage the season calendar (possible to import CSV files), cruise ships, cars (models / types), locations & access payments.",
-      "Unfortunately the service has been shut down, so theres no live version anymore.",
+      "Booking platform for cruise passengers for **Kuehne+Nagel**",
+      "The platform was designed and built from scratch. The backend is **Java** with **Spring Boot Microservices** developed with 100% test coverage, the frontend is **HTML5** with vanilla **JavaScript** and **jQuery**, styled by a custom made CSS Library in **SASS** providing the corporate identity design.",
+      "Offered are two separate apps, one for clients and travel agencies to book, pay and manage **premium parking services**. The second plattform is used by admins to manage the booking data like annual season calendar, cruise ships, car lists, locations & payment reports.",
     ],
     links: {
       live: "https://www.kn-kreuzfahrtparken.de",
@@ -144,7 +141,7 @@ const projects: Projects = {
       github: "https://github.com/codeoutin/ntpt_docker_compose",
       live: "https://github.com/codeoutin/ntpt_frontend_react",
     },
-    stack: [logos.docker, logos.react, logos.gitlab, logos.mongodb, logos.laravel],
+    stack: [logos.docker, logos.react, logos.gitlab, logos.mongodb, logos.laravel, logos.jenkins],
     images: {
       main: {
         link: "/project/ntpt/ntpt-instances.png",
