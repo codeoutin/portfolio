@@ -33,6 +33,7 @@ function Header() {
       },
       headerImg: {
         maxWidth: "90%",
+        objectFit: "contain"
       },
       gridItem: {
         display: "flex",

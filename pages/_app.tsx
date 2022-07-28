@@ -288,14 +288,14 @@ export function MyApp({ Component, pageProps }: AppProps) {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
-        {/* <title>Bhavya Tomar</title> */}
+        {/* <title>Patrick Steger</title> */}
         {/* PWA primary color */}
         <meta name="theme-color" content="#161625" />
         {/* <!-- Primary Meta Tags --> */}
-        <meta name="title" content="Bhavya Tomar" />
+        <meta name="title" content="Patrick Steger" />
         <meta
           name="description"
-          content="Hi, I am Bhavya Tomar, an adventurer in web development."
+          content="Hi, I am Patrick Steger, a fullstack developer in Berlin."
           key="description"
         />
 
@@ -305,10 +305,10 @@ export function MyApp({ Component, pageProps }: AppProps) {
           property="og:url"
           content={`https://${process.env.NEXT_PUBLIC_VERCEL_URL}`}
         />
-        <meta property="og:title" content="Bhavya Tomar" />
+        <meta property="og:title" content="Patrick Steger" />
         <meta
           property="og:description"
-          content="Hi, I am Bhavya Tomar, an adventurer in web development."
+          content="Hi, I am Patrick Steger, a fullstack developer in Berlin."
           key="og-description"
         />
         <meta
@@ -325,10 +325,10 @@ export function MyApp({ Component, pageProps }: AppProps) {
           property="twitter:url"
           content={`https://${process.env.NEXT_PUBLIC_VERCEL_URL}`}
         />
-        <meta property="twitter:title" content="Bhavya Tomar" />
+        <meta property="twitter:title" content="Patrick Steger" />
         <meta
           property="twitter:description"
-          content="Hi, I am Bhavya Tomar, an adventurer in web development."
+          content="Hi, I am Patrick Steger, a fullstack developer in Berlin."
           key="twitter-description"
         />
         <meta
@@ -380,7 +380,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
             // component="a"
             // href="/#"
             variant="h6"
-          >{`< Bhavya />`}</Typography>
+          >{`< psteger />`}</Typography>
           {/* </Link> */}
           <div className={classes.navbarRight}>
             <Hidden mdDown>

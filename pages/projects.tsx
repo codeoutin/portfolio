@@ -8,36 +8,32 @@ import BackHomeButton from "components/Projects/BackHomeButton";
 import allProjects, { ProjectType } from "lib/projects";
 
 const projects: ProjectType[] = [
-  allProjects.devGram,
-  allProjects.dogmash,
-  allProjects.covid19,
-  allProjects.connect4,
-  allProjects.urlShortener,
-  allProjects.getItDone,
-  allProjects.thisWebsite,
-  allProjects.theMealHub,
-  allProjects.pokemon,
-  allProjects.jokes,
+  allProjects.doohit,
+//  allProjects.oko,
+  allProjects.closed,
+  allProjects.butlers,
+  allProjects.parkcruise,
+  allProjects.ntpt,
 ];
 
 function projectsPage() {
   return (
     <>
       <Head>
-        <title>Bhavya Tomar - Projects</title>
+        <title>Patrick Steger - Projects</title>
         <meta
           name="description"
-          content="Come check out projects made by Bhavya Tomar."
+          content="Come check out projects made by Patrick Steger."
           key="description"
         />
         <meta
           property="og:description"
-          content="Come check out projects made by Bhavya Tomar."
+          content="Come check out projects made by Patrick Steger."
           key="og-description"
         />
         <meta
           property="twitter:description"
-          content="Come check out projects made by Bhavya Tomar."
+          content="Come check out projects made by Patrick Steger."
           key="twitter-description"
         />
       </Head>

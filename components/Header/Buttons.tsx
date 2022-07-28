@@ -32,7 +32,7 @@ function Buttons() {
     <>
       <Box mx={-1}>
         <Link
-          href="https://github.com/BhavyaCodes"
+          href="https://github.com/codeoutin"
           target="_blank"
           rel="noopener noreferrer"
           color="inherit"
@@ -47,7 +47,7 @@ function Buttons() {
           </IconButton>
         </Link>
         <Link
-          href="https://www.linkedin.com/in/bhavya-tomar/"
+          href="http://linkedin.com/in/p-steger/"
           target="_blank"
           rel="noopener noreferrer"
           color="inherit"
@@ -59,21 +59,6 @@ function Buttons() {
             color="inherit"
           >
             <LinkedInIcon fontSize="large" />
-          </IconButton>
-        </Link>
-        <Link
-          href="https://twitter.com/bhavyacodes"
-          target="_blank"
-          rel="noopener noreferrer"
-          color="inherit"
-          itemProp="sameAs"
-        >
-          <IconButton
-            aria-label="Github repository link"
-            aria-haspopup="true"
-            color="inherit"
-          >
-            <TwitterIcon fontSize="large" />
           </IconButton>
         </Link>
       </Box>

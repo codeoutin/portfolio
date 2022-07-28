@@ -1,29 +1,30 @@
 type logoNames =
-  | "apollo"
-  | "graphql"
-  | "nestjs"
+  | "php"
+  | "laravel"
+  | "vuejs"
   | "react"
   | "bootstrap"
-  | "chartjs"
-  | "expressjs"
+  | "java"
+  | "shopify"
   | "git"
-  | "github"
-  | "materialui"
-  | "mongodb"
-  | "nextjs"
-  | "s3"
-  | "socketio"
+  | "cypress"
+  | "docker"
+  | "jenkins"
+  | "mysql"
+  | "nginx"
+  | "postman"
   | "typescript"
-  | "vercel"
-  | "ejs"
+  | "gitlab"
   | "nodejs"
   | "javascript"
   | "postgresql"
   | "redux"
   | "sass"
-  | "bash"
-  | "reactSpring"
-  | "framerMotion";
+  | "mapbox"
+  | "mongodb"
+  | "html5"
+  | "spring"
+  | "bash";
 
 type Logos = {
   [k in logoNames]: {
@@ -35,82 +36,71 @@ type Logos = {
 };
 
 const logos: Logos = {
-  apollo: {
-    label: "Apollo",
-    logo: "/assets/icons/apollo.svg",
-    spin: false,
+  php: {
+    label: "PHP",
+    logo: "/assets/icons/php.svg",
     invert: true,
   },
-  graphql: {
-    label: "GraphQl",
-    logo: "/assets/icons/graphql.svg",
-    spin: false,
+  laravel: {
+    label: "Laravel",
+    logo: "/assets/icons/laravel.svg",
   },
-  nestjs: {
-    label: "Nest.js",
-    logo: "/assets/icons/nestjs.svg",
-    spin: false,
+  vuejs: {
+    label: "Vue.js",
+    logo: "/assets/icons/vuejs.svg",
   },
   react: {
     label: "React",
-    logo: "/assets/icons/react.png",
+    logo: "/assets/icons/react.svg",
     spin: true,
   },
   bootstrap: {
     label: "Bootstrap",
     logo: "/assets/icons/bootstrap.svg",
   },
-  chartjs: {
-    label: "Chart.js",
-    logo: "/assets/icons/chartjs.svg",
+  java: {
+    label: "Java",
+    logo: "/assets/icons/java.svg",
   },
-  expressjs: {
-    label: "Express.js",
-    logo: "/assets/icons/expressjs.png",
+  shopify: {
+    label: "Shopify",
+    logo: "/assets/icons/shopify.svg",
   },
   git: {
     label: "Git",
     logo: "/assets/icons/git.svg",
   },
-  github: {
-    label: "GitHub",
-    logo: "/assets/icons/github.svg",
-    invert: true,
+  cypress: {
+    label: "Cypress",
+    logo: "/assets/icons/cypress.svg",
   },
-  materialui: {
-    label: "Material-UI",
-    logo: "/assets/icons/materialui.svg",
+  docker: {
+    label: "Docker",
+    logo: "/assets/icons/docker.svg",
   },
-  mongodb: {
-    label: "MongoDB",
-    logo: "/assets/icons/mongodb.svg",
+  jenkins: {
+    label: "Jenkins",
+    logo: "/assets/icons/jenkins.svg",
   },
-  nextjs: {
-    label: "Next.js",
-    logo: "/assets/icons/nextjs.svg",
-    invert: true,
+  mysql: {
+    label: "MySQL",
+    logo: "/assets/icons/mysql.svg",
   },
-  s3: {
-    label: "AWS-S3",
-    logo: "/assets/icons/s3.svg",
+  nginx: {
+    label: "Nginx",
+    logo: "/assets/icons/nginx.svg",
   },
-  socketio: {
-    label: "Socket.IO",
-    logo: "/assets/icons/socketio.svg",
+  postman: {
+    label: "Postman",
+    logo: "/assets/icons/postman.svg",
   },
   typescript: {
     label: "TypeScript",
     logo: "/assets/icons/typescript.svg",
   },
-  vercel: {
-    label: "Vercel",
-    logo: "/assets/icons/vercel.svg",
-    invert: true,
-  },
-  ejs: {
-    label: "EJS",
-    logo: "/assets/icons/ejs.svg",
-    invert: true,
+  gitlab: {
+    label: "Gitlab",
+    logo: "/assets/icons/gitlab.svg",
   },
   nodejs: {
     label: "Node.js",
@@ -136,13 +126,21 @@ const logos: Logos = {
     label: "Bash",
     logo: "/assets/icons/bash.svg",
   },
-  reactSpring: {
-    label: "react-spring",
-    logo: "/assets/icons/react-spring.svg",
+  mongodb: {
+    label: "MongoDB",
+    logo: "/assets/icons/mongodb.svg",
   },
-  framerMotion: {
-    label: "Framer Motion",
-    logo: "/assets/icons/framer.png",
+  spring: {
+    label: "Spring",
+    logo: "/assets/icons/spring.svg",
+  },
+  html5: {
+    label: "HTML5",
+    logo: "/assets/icons/html5.svg",
+  },
+  mapbox: {
+    label: "Mapbox",
+    logo: "/assets/icons/mapbox.svg"
   },
 };
 

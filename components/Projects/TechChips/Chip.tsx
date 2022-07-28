@@ -40,15 +40,6 @@ function Chip({ label, logo, invert }: StackType) {
           width: "80%",
         },
       },
-      // label: {
-      //   position: "relative",
-      //   opacity: 0,
-      //   whiteSpace: "nowrap",
-      //   zIndex: 10,
-      //   [theme.breakpoints.up("sm")]: {
-      //     marginTop: theme.spacing(1),
-      //   },
-      // },
       label2: {
         position: "absolute",
         whiteSpace: "nowrap",
@@ -83,13 +74,6 @@ function Chip({ label, logo, invert }: StackType) {
             alt={label}
           />
         </a.div>
-        {/* <Typography
-          align="center"
-          className={classes.label}
-          gutterBottom={false}
-        >
-          {label}
-        </Typography> */}
         <Typography
           align="center"
           className={classes.label2}

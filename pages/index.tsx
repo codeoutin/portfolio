@@ -12,18 +12,17 @@ import AllProjectsButton from "components/Projects/AllProjectsButton";
 import allProjects, { ProjectType } from "lib/projects";
 
 const projects: ProjectType[] = [
-  allProjects.devGram,
-  allProjects.dogmash,
-  allProjects.covid19,
-  allProjects.connect4,
-  allProjects.getItDone,
+  allProjects.doohit,
+//  allProjects.oko,
+  allProjects.closed,
+  allProjects.butlers,
 ];
 
 const IndexPage = () => {
   return (
     <>
       <Head>
-        <title>Bhavya Tomar</title>
+        <title>Patrick Steger</title>
       </Head>
       <motion.div
         key="index"

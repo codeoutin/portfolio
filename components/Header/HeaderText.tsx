@@ -35,9 +35,9 @@ function HeaderText() {
       itemType="https://schema.org/Person"
       className={classes.root}
     >
-      <meta itemProp="familyName" content="Tomar" />
+      <meta itemProp="familyName" content="Steger" />
       <meta itemProp="gender" content="https://schema.org/Male" />
-      <meta itemProp="name" content="Bhavya Tomar" />
+      <meta itemProp="name" content="Patrick Steger" />
       <Typography
         className={classes.title}
         variant="h2"
@@ -45,7 +45,7 @@ function HeaderText() {
         gutterBottom
       >
         <span className={classes.hi}>Hi, </span>I'm{" "}
-        <span itemProp="givenName">Bhavya</span>
+        <span itemProp="givenName">Patrick</span>
       </Typography>
       <Typography
         variant="h4"
@@ -53,7 +53,7 @@ function HeaderText() {
         component="h2"
         gutterBottom
       >
-        A fullstack developer
+        A fullstack developer in Berlin
       </Typography>
       <Typography itemProp="knowsAbout" className={classes.paragraph}>
         {/* I specialize in developing and deploying responsive websites and web

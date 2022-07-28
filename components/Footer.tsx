@@ -21,7 +21,6 @@ import {
 import MailIcon from "@material-ui/icons/Mail";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import TwitterIcon from "@material-ui/icons/Twitter";
 import SendIcon from "@material-ui/icons/Send";
 import CloseIcon from "@material-ui/icons/Close";
 import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
@@ -83,6 +82,7 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 function Footer() {
+  console.log(process.env.NEXT_PUBLIC_FORMSPREE_URL);
   const [open, setOpen] = useState(false);
   const [message, setMessage] = useState("Message Sent");
   const classes = useStyles();
@@ -164,7 +164,7 @@ function Footer() {
                 <Grid item md={6} sm={6} className={classes.iconsGrid}>
                   <Link
                     className={classes.socialItem}
-                    href="https://github.com/BhavyaCodes"
+                    href="https://github.com/codeoutin"
                     target="_blank"
                     rel="noopener noreferrer"
                     color="inherit"
@@ -176,7 +176,7 @@ function Footer() {
 
                   <Link
                     className={classes.socialItem}
-                    href="https://www.linkedin.com/in/bhavya-tomar/"
+                    href="http://linkedin.com/in/p-steger/"
                     target="_blank"
                     rel="noopener noreferrer"
                     color="inherit"
@@ -188,25 +188,13 @@ function Footer() {
 
                   <Link
                     className={classes.socialItem}
-                    href="https://twitter.com/bhavyacodes"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    color="inherit"
-                  >
-                    <TwitterIcon className={classes.icon} fontSize="large" />
-
-                    <Typography>Twitter</Typography>
-                  </Link>
-
-                  <Link
-                    className={classes.socialItem}
-                    href="mailto:xbhavyatomar@gmail.com"
+                    href="mailto:ps@psteger.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     color="inherit"
                   >
                     <MailIcon fontSize="large" className={classes.icon} />
-                    <Typography>xbhavatomar@gmail.com</Typography>
+                    <Typography>ps@psteger.com</Typography>
                   </Link>
                 </Grid>
 

@@ -1,4 +1,4 @@
-Sitemap: https://bhavya.dev/sitemap.xml
+Sitemap: https://psteger.com/sitemap.xml
 
 User-agent: *
 Allow: /*
