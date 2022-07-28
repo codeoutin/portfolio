@@ -82,7 +82,6 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 function Footer() {
-  console.log(process.env.NEXT_PUBLIC_FORMSPREE_URL);
   const [open, setOpen] = useState(false);
   const [message, setMessage] = useState("Message Sent");
   const classes = useStyles();
