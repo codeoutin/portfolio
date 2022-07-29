@@ -40,7 +40,7 @@ const projects: Projects = {
     ],
     images: {
       main: {
-        link: "/project/doohit/doohit-media.jpg",
+        link: "/project/doohit/doohit-media.jpeg",
         width: 995,
         height: 725,
       },
