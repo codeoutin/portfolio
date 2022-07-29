@@ -9,7 +9,7 @@ import Link from "next/link";
 import { AppProps } from "next/app";
 import { ThemeProvider } from "@material-ui/core/styles";
 import { lime, red } from "@material-ui/core/colors";
-import { createMuiTheme } from "@material-ui/core/styles";
+import { createTheme } from "@material-ui/core/styles";
 import {
   AppBar,
   Toolbar,
@@ -83,7 +83,7 @@ function ScrollTop(props: Props) {
 function MyAppWithTheme(props: AppProps) {
   const darkMode = useDarkMode();
   const paletteType = darkMode ? "dark" : "light";
-  const theme = createMuiTheme({
+  const theme = createTheme({
     palette: {
       secondary: paletteType === "dark" ? lime : red,
       type: paletteType,
@@ -368,7 +368,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
               }
             }}
             >
-              <img alt="Logo" src="/assets/logo.svg" style={{ height: "100%" }}/>
+              <img alt="Logo" src="/assets/logo.svg" height="48" width="48" />
             </Box>
           <div className={classes.navbarRight}>
             <Hidden mdDown>

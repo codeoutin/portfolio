@@ -246,7 +246,7 @@ function Footer() {
                 fullWidth
                 margin="dense"
                 multiline
-                rows={5}
+                minRows={5}
                 variant="outlined"
                 color="secondary"
                 inputRef={messageRef}
