@@ -5,6 +5,7 @@ type ProjectName =
   | "closed"
   | "butlers"
   | "parkcruise"
+  | "portfolio"
   | "ntpt";
 
 export type StackType = { label: string; logo: string; invert?: boolean };
@@ -39,7 +40,7 @@ const projects: Projects = {
     ],
     images: {
       main: {
-        link: "/project/doohit/doohit-lighthouse.png",
+        link: "/project/doohit/doohit-media.jpg",
         width: 995,
         height: 725,
       },
@@ -127,6 +128,26 @@ const projects: Projects = {
         link: "/project/parkcruise/parkcruise.png",
         width: 970,
         height: 549,
+      },
+    },
+  },
+  portfolio: {
+    title: "This website",
+    description: [
+      "This portfolio website is build with **React** using **Next.js** framework.",
+      "It's written in **100% TypeScript**. I made some changes in the colors and behaviour and optimized the site to reach a perfect **Lighthouse** score across all categories.",
+      "The source code is written by **Bhavya** and is already great out-of-the-box.",
+    ],
+    links: {
+      github: "https://github.com/codeoutin/portfolio",
+      live: "https://psteger.com",
+    },
+    stack: [logos.typescript, logos.react],
+    images: {
+      main: {
+        link: "/project/portfolio/psteger.jpeg",
+        width: 925,
+        height: 596,
       },
     },
   },
