@@ -53,13 +53,12 @@ function HeaderText() {
         component="h2"
         gutterBottom
       >
-        A fullstack developer in Berlin
+        A software engineer in Berlin
       </Typography>
       <Typography itemProp="knowsAbout" className={classes.paragraph}>
-        I enjoy solving complex problems.{" "}
-        Frequently praised as detail-oriented by my peers, I can be relied upon
-        to help your company achieve its goals by providing sustainable and
-        scalable solutions. 
+        I work as a freelancer to help your company achieve its goals by providing sustainable and
+        scalable solutions.{" "}
+        I'm backed up by a team of project managers, creatives and developers to accomplish projects of any size.
       </Typography>
       <Buttons />
     </Box>

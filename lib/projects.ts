@@ -77,7 +77,7 @@ const projects: Projects = {
     title: "Closed Ecommerce",
     description: [
       "Development of features and templates for **Closed**. The ecommerce platform is based on a highly customized OXID eShop",
-      "Design and coding of (fully responsible) microsites out of Sketch templates, implementation of features for the backend of the shopfront, integration of **Cypress** and writing of tests",
+      "Design and coding of (fully responsible) microsites out of Sketch templates including **ScrollMagic**, implementation of features for the backend of the shopfront, integration of **Cypress** and writing of tests",
     ],
     images: {
       main: {
@@ -95,8 +95,8 @@ const projects: Projects = {
     title: "Butlers",
     description: [
       "Custom made ERM system for **Butlers**.",
-      "The webapp is built using **Laravel** and is used for everyday tasks, employee management, warehouse management & calculations and much more. Everything is custom made for customers needs.",
-      "As another project I developed a prototype to create a highly dynamic backend interface that is customizable by admins without needing to request developers to change the interface. Every object, tab, calculation and field can be customized and will be shown on the frontend. Data is managed by a **MongoDB** database system. It is built similar headless CMS systems like **contentful**, but with more features, plugins and made for business partners needs.",
+      "The webapp is build with **Laravel** and is used to maintain hundrets of stores and their logistics, warehouse management, reports, calculations and much more.",
+      "I also developed a headless CMS version to offer a highly dynamic backend solution. Every object, interface, calculation and field can be customized. Data is managed by a **MongoDB** database system. It is built similar headless CMS systems like **contentful**, with more features, plugins and made for business partners needs.",
       "If you wish to test the prototype project, feel free to contact me.",
     ],
     stack: [logos.laravel, logos.vuejs, logos.mongodb, logos.git],
@@ -141,7 +141,7 @@ const projects: Projects = {
       github: "https://github.com/codeoutin/ntpt_docker_compose",
       live: "https://github.com/codeoutin/ntpt_frontend_react",
     },
-    stack: [logos.docker, logos.react, logos.gitlab, logos.mongodb, logos.laravel, logos.jenkins],
+    stack: [logos.docker, logos.react, logos.gitlab, logos.mongodb, logos.java, logos.spring, logos.jenkins],
     images: {
       main: {
         link: "/project/ntpt/ntpt-instances.png",
