@@ -13,6 +13,7 @@ const projects: ProjectType[] = [
   allProjects.closed,
   allProjects.butlers,
   allProjects.parkcruise,
+  allProjects.portfolio,
   allProjects.ntpt,
 ];
 
