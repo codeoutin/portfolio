@@ -14,7 +14,7 @@ const DarkModeIcon = () => {
   };
 
   return (
-    <Tooltip title="Toggle Dark Mode" aria-label="toggle dark mode">
+    <Tooltip title="Toggle Dark Mode" aria-label="toggle dark mode" role="button">
       <div>
         <DarkModeSwitch
           style={{ marginRight: theme.spacing(2) }}
