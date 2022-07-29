@@ -352,6 +352,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
       <AppBar component="nav">
         <Toolbar>
           <Box
+            height={48}
             onClick={() => {
               if (router.pathname === "/") {
                 scroller.scrollTo("home", {
@@ -366,14 +367,9 @@ export function MyApp({ Component, pageProps }: AppProps) {
                 });
               }
             }}
-            component="img"
-            className={classes.logo}
-            sx={{
-              height: 48,
-            }}
-            alt="psteger Logo"
-            src="/assets/logo.svg"
-          />
+            >
+              <img alt="Logo" src="/assets/logo.svg" style={{ height: "100%" }}/>
+            </Box>
           <div className={classes.navbarRight}>
             <Hidden mdDown>
               <Box mr={2}>
