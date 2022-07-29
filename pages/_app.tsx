@@ -287,7 +287,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
         <meta name="title" content="Patrick Steger" />
         <meta
           name="description"
-          content="Hi, I am Patrick Steger, a fullstack developer in Berlin."
+          content="Hi, I am Patrick Steger, a software engineer in Berlin."
           key="description"
         />
 
@@ -300,7 +300,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:title" content="Patrick Steger" />
         <meta
           property="og:description"
-          content="Hi, I am Patrick Steger, a fullstack developer in Berlin."
+          content="Hi, I am Patrick Steger, a software engineer in Berlin."
           key="og-description"
         />
         <meta
@@ -320,7 +320,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
         <meta property="twitter:title" content="Patrick Steger" />
         <meta
           property="twitter:description"
-          content="Hi, I am Patrick Steger, a fullstack developer in Berlin."
+          content="Hi, I am Patrick Steger, a software engineer in Berlin."
           key="twitter-description"
         />
         <meta
