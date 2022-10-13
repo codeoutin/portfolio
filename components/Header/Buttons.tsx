@@ -61,7 +61,11 @@ function Buttons() {
         </Link>
       </Box>
       <Box className={classes.bigButtonsContainer} mt={2}>
-        <NextLink href="https://calendly.com/psteger">
+        <NextLink 
+          href="https://calendly.com/psteger" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
           <Button
             variant="contained"
             color="secondary"

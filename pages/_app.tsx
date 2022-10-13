@@ -242,7 +242,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
         <SideBarButton text="Contact" name="contact">
           <ForumIcon />
         </SideBarButton>
-        <Link href="https://calendly.com/psteger" passHref>
+        <Link href="https://calendly.com/psteger" target="_blank">
           <ListItem button component="a" href="https://calendly.com/psteger">
             <ListItemIcon>
               <TimeIcon />
@@ -250,7 +250,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
             <ListItemText primary="Schedule a call" />
           </ListItem>
         </Link>
-        <Link href="https://www.superprof.de/ir/22599685-47d647" passHref>
+        <Link href="https://www.superprof.de/ir/22599685-47d647" target="_blank">
           <ListItem button component="a" href="https://www.superprof.de/ir/22599685-47d647">
             <ListItemIcon>
               <SchoolIcon />
