@@ -57,8 +57,8 @@ function HeaderText() {
       </Typography>
       <Typography itemProp="knowsAbout" className={classes.paragraph}>
         I work as a freelancer to help your company achieve its goals by providing sustainable and
-        scalable solutions.{" "}
-        I'm backed up by a team of project managers, creatives and developers to accomplish projects of any size.
+        scalable solutions.
+        I'm backed up by a team of project managers, creatives and developers to accomplish projects of any size. You can also book me as a teacher!
       </Typography>
       <Buttons />
     </Box>

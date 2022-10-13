@@ -1,7 +1,6 @@
-import { scroller } from "react-scroll";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import ForumIcon from "@material-ui/icons/Forum";
+import TimeIcon from "@material-ui/icons/AccessTime";
 import CodeIcon from "@material-ui/icons/Code";
 import { Box, IconButton, Link, Button } from "@material-ui/core";
 import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
@@ -62,20 +61,19 @@ function Buttons() {
         </Link>
       </Box>
       <Box className={classes.bigButtonsContainer} mt={2}>
-        <Button
-          variant="contained"
-          color="secondary"
-          disableElevation
-          className={classes.bigButton}
-          startIcon={<ForumIcon />}
-          onClick={() => {
-            scroller.scrollTo("contact", {
-              smooth: "easeInOutQuad",
-            });
-          }}
-        >
-          Get in touch
-        </Button>
+        <NextLink href="https://calendly.com/psteger">
+          <Button
+            variant="contained"
+            color="secondary"
+            disableElevation
+            className={classes.bigButton}
+            startIcon={<TimeIcon />}
+            href="https://calendly.com/psteger"
+            target="_blank"
+          >
+            Schedule a call
+          </Button>
+        </NextLink>
         <NextLink href="/projects">
           <Button
             component="a"

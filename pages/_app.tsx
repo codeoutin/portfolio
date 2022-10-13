@@ -35,6 +35,8 @@ import MenuIcon from "@material-ui/icons/Menu";
 import HomeIcon from "@material-ui/icons/Home";
 import CodeIcon from "@material-ui/icons/Code";
 import ForumIcon from "@material-ui/icons/Forum";
+import TimeIcon from "@material-ui/icons/AccessTime";
+import SchoolIcon from "@material-ui/icons/School";
 import BuildIcon from "@material-ui/icons/Build";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 
@@ -229,9 +231,6 @@ export function MyApp({ Component, pageProps }: AppProps) {
         <SideBarButton text="My Toolbelt" name="skills">
           <BuildIcon />
         </SideBarButton>
-        <SideBarButton text="Featured Projects" name="projects">
-          <CodeIcon />
-        </SideBarButton>
         <Link href="/projects" passHref>
           <ListItem button component="a" href="/projects">
             <ListItemIcon>
@@ -243,6 +242,22 @@ export function MyApp({ Component, pageProps }: AppProps) {
         <SideBarButton text="Contact" name="contact">
           <ForumIcon />
         </SideBarButton>
+        <Link href="https://calendly.com/psteger" passHref>
+          <ListItem button component="a" href="https://calendly.com/psteger">
+            <ListItemIcon>
+              <TimeIcon />
+            </ListItemIcon>
+            <ListItemText primary="Schedule a call" />
+          </ListItem>
+        </Link>
+        <Link href="https://www.superprof.de/ir/22599685-47d647" passHref>
+          <ListItem button component="a" href="https://www.superprof.de/ir/22599685-47d647">
+            <ListItemIcon>
+              <SchoolIcon />
+            </ListItemIcon>
+            <ListItemText primary="Book me as teacher" />
+          </ListItem>
+        </Link>
       </List>
     </div>
   );
@@ -383,7 +398,17 @@ export function MyApp({ Component, pageProps }: AppProps) {
                     href="/projects"
                     color="inherit"
                   >
-                    all projects
+                    All Projects
+                  </Button>
+                </Link>
+                <Link href="https://www.superprof.de/ir/22599685-47d647" passHref>
+                  <Button
+                    className={classes.navbarRightButtons}
+                    component="a"
+                    href="https://www.superprof.de/ir/22599685-47d647"
+                    color="inherit"
+                  >
+                    Book Lesson
                   </Button>
                 </Link>
                 {NavBarButton("Contact me", "contact")}
