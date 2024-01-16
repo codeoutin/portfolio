@@ -37,7 +37,7 @@ function Buttons() {
           itemProp="sameAs"
         >
           <IconButton
-            aria-label="Github repository link"
+            aria-label="LinkedIn profile"
             aria-haspopup="true"
             color="inherit"
           >
