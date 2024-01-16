@@ -44,8 +44,7 @@ function HeaderText() {
         component="h1"
         gutterBottom
       >
-        <span className={classes.hi}>Hi, </span>I'm{" "}
-        <span itemProp="givenName">Patrick</span>
+        <span itemProp="givenName">Patrick Steger</span>
       </Typography>
       <Typography
         variant="h4"
@@ -53,12 +52,10 @@ function HeaderText() {
         component="h2"
         gutterBottom
       >
-        A software engineer in Berlin
+        Current availability: <span className={classes.hi}>35h/week</span>
       </Typography>
       <Typography itemProp="knowsAbout" className={classes.paragraph}>
-        I work as a freelancer to help your company achieve its goals by providing sustainable and
-        scalable solutions.
-        I'm backed up by a team of project managers, creatives and developers to accomplish projects of any size. You can also book me as a teacher!
+      Software Developer & Architect | Server Management & IT Solutions Expert | Business & Tech Mentor | Bridging Technology, Business, and Learning
       </Typography>
       <Buttons />
     </Box>

@@ -32,11 +32,11 @@ type Projects = {
 
 const projects: Projects = {
   doohit: {
-    title: "dooh-it by PWM",
+    title: "Lead developer & software architect",
     description: [
-      "A **business content management** app to create digital ad campaigns on gas station screens. Built as **SPA** with easy to use role and permission system for different user types. Includes bookings with previews, live maps, timezones, automatic email services, PDF generation for invoices, quotations and business analyses and AWS connectivity.",
-      "Created in 2020 and still in active development and used by a daily growing user base.",
-      "Fullstack application with **Vue.js** on the frontend & **Laravel / PHP** on the backend and serval secured **REST API** services. All parts are modular and customizable to fit customers needs.",
+      "For PWM designing, developing the architecture and the **business content management** app to create digital ad campaigns with instant payment and booking solutions. Built as **SPA** with easy to use role and permission system for different user types. Includes bookings with live previews, dynamic maps, timezone management, email services, document generation, business analyses and AWS connectivity.",
+      "Started in 2020 and as of 2024 in ongoing development and used by a daily growing user base.",
+      "Fullstack application with **Vue.js** on the frontend & **Laravel / PHP** on the backend and various **REST API** services. All parts are modular and customizable to fit customers needs.",
     ],
     images: {
       main: {
@@ -52,30 +52,8 @@ const projects: Projects = {
       live: "https://pwm.com",
     },
   },
-  /* oko: {
-    title: "OKO",
-    description: [
-      "Ecommerce shop for bluelight display screens.",
-      "I'm CEO of the shop and its also my first **Shopify** project, including custom storefront applications and customized theming.",
-    ],
-    images: {
-      main: {
-        link: "/project/oko/oko.png",
-        width: 1903,
-        height: 894,
-      },
-    },
-    stack: [
-      logos.shopify,
-      logos.vuejs,
-      logos.laravel,
-    ],
-    links: {
-      live: "https://dogmash.herokuapp.com/",
-    },
-  }, */
   closed: {
-    title: "Closed Ecommerce",
+    title: "Fullstack Ecommerce Developer",
     description: [
       "Development of features and templates for **Closed**. The ecommerce platform is based on a highly customized OXID eShop",
       "Design and coding of (fully responsible) microsites out of Sketch templates including **ScrollMagic**, implementation of features for the backend of the shopfront, integration of **Cypress** and writing of tests",
@@ -93,12 +71,12 @@ const projects: Projects = {
     },
   },
   butlers: {
-    title: "Butlers",
+    title: "Full Stack ERP architect",
     description: [
-      "Custom made ERM system for **Butlers**.",
-      "The webapp is build with **Laravel** and is used to maintain hundrets of stores and their logistics, warehouse management, reports, calculations and much more.",
-      "I also developed a headless CMS version to offer a highly dynamic backend solution. Every object, interface, calculation and field can be customized. Data is managed by a **MongoDB** database system. It is built similar headless CMS systems like **contentful**, with more features, plugins and made for business partners needs.",
-      "If you wish to test the prototype project, feel free to contact me.",
+      "Lead developer for an ERP system at **Butlers / H24**.",
+      "Development of a fully custom PHP webapp with **Vue.js** features. The app allows the company to maintain hundrets of stores and product logistics, warehouse management, reports, calculations and other ERP features.",
+      "Connectivity to SAP software and internal APIs",
+      "Demo on request.",
     ],
     stack: [logos.laravel, logos.vuejs, logos.mongodb, logos.git],
     links: {
@@ -113,7 +91,7 @@ const projects: Projects = {
     },
   },
   parkcruise: {
-    title: "Park+Cruise",
+    title: "Fullstack Developer",
     description: [
       "Booking platform for cruise passengers for **Kuehne+Nagel**",
       "The platform was designed and built from scratch. The backend is **Java** with **Spring Boot Microservices** developed with 100% test coverage, the frontend is **HTML5** with vanilla **JavaScript** and **jQuery**, styled by a custom made CSS Library in **SASS** providing the corporate identity design.",

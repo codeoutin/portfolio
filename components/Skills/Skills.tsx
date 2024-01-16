@@ -155,6 +155,9 @@ function Skills() {
               >
                 My Tech Stack
               </Typography>
+              <Typography itemProp="knowsAbout" className={classes.paragraph}>
+              Full-Stack Development Expertise, Effective Communicator, Project Management and leading roles & Mentoring
+              </Typography>
               <div
               // ref={intersectionExitRef}
               >
