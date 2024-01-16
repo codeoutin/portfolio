@@ -13,9 +13,8 @@ import allProjects, { ProjectType } from "lib/projects";
 
 const projects: ProjectType[] = [
   allProjects.doohit,
-//  allProjects.oko,
+  allProjects.butlers,
   allProjects.closed,
-  allProjects.parkcruise,
 ];
 
 const IndexPage = () => {
