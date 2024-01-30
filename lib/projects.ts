@@ -40,7 +40,7 @@ const projects: Projects = {
     ],
     images: {
       main: {
-        link: "/project/doohit/doohit-media.jpeg",
+        link: "/project/doohit/doohit_lorem.png",
         width: 995,
         height: 725,
       },
@@ -84,7 +84,7 @@ const projects: Projects = {
     },
     images: {
       main: {
-        link: "/project/butlers/cloud-v2.png",
+        link: "/project/butlers/bcloud_lorem.png",
         width: 860,
         height: 520,
       },
