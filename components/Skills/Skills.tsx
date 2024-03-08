@@ -153,10 +153,10 @@ function Skills() {
                 variant="h2"
                 gutterBottom
               >
-                My Tech Stack
+                Tech That Works for You
               </Typography>
               <Typography itemProp="knowsAbout">
-                Full-Stack Development Expertise, Effective Communicator, Project Management and leading roles & Mentoring
+                Full-Stack Development Expertise. Choosing and linking technologies to boost your business. Quick, smart solutions ahead.
               </Typography>
               <div
               // ref={intersectionExitRef}

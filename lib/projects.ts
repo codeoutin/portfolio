@@ -32,11 +32,10 @@ type Projects = {
 
 const projects: Projects = {
   doohit: {
-    title: "Lead developer & software architect",
+    title: "IT Consultant & software architect",
     description: [
-      "For PWM designing, developing the architecture and the **business content management** app to create digital ad campaigns with instant payment and booking solutions. Built as **SPA** with easy to use role and permission system for different user types. Includes bookings with live previews, dynamic maps, timezone management, email services, document generation, business analyses and AWS connectivity.",
-      "Started in 2020 and as of 2024 in ongoing development and used by a daily growing user base.",
-      "Fullstack application with **Vue.js** on the frontend & **Laravel / PHP** on the backend and various **REST API** services. All parts are modular and customizable to fit customers needs.",
+      "Design and development of a **business content management** app from scratch. A platform to create digital ad campaigns with instant payment and booking solutions. Role and permission system for different user types and countries. Bookings with live previews, dynamic maps, timezone management, email services, document generation, business analyses and AWS connectivity.",
+      "Project length: 4 years (3 months to prototype, 6 months to production, continuous business consulting & feature development)",
     ],
     images: {
       main: {
@@ -71,11 +70,10 @@ const projects: Projects = {
     },
   },
   butlers: {
-    title: "Full Stack ERP architect",
+    title: "ERP architect & lead development",
     description: [
       "Lead developer for an ERP system at **Butlers / H24**.",
-      "Development of a fully custom PHP webapp with **Vue.js** features. The app allows the company to maintain hundrets of stores and product logistics, warehouse management, reports, calculations and other ERP features.",
-      "Connectivity to SAP software and internal APIs",
+      "Development of a full custom webapp with ERP features and bridging technologies & legacy software. The app allows the company to maintain hundrets of stores and product logistics, warehouse management, reports, calculations and other ERP features.",
       "Demo on request.",
     ],
     stack: [logos.laravel, logos.vuejs, logos.mongodb, logos.git],

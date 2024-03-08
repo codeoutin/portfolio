@@ -52,10 +52,10 @@ function HeaderText() {
         component="h2"
         gutterBottom
       >
-        Current availability: <span className={classes.hi}>35h/week</span>
+        Technology <span className={classes.hi}>Solution Architect</span>
       </Typography>
       <Typography itemProp="knowsAbout" className={classes.paragraph}>
-      Software Developer & Architect | Server Management & IT Solutions Expert | Business & Tech Mentor | Bridging Technology, Business, and Learning
+      Web & Software Development & Architect | Database & Server Management | Business & Tech Mentor | IT Support | Bridging Technology, Business and Learning
       </Typography>
       <Buttons />
     </Box>
