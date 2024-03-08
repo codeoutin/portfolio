@@ -19,9 +19,15 @@ const useStyles = makeStyles((theme: Theme) =>
     hi: {
       color: "red",
     },
+    locations: {
+      color: "orange",
+    },
     paragraph: {
       paddingRight: "20%",
     },
+    paragraph2: {
+      marginTop: "10px",
+    }
   })
 );
 
@@ -56,6 +62,9 @@ function HeaderText() {
       </Typography>
       <Typography itemProp="knowsAbout" className={classes.paragraph}>
       Web & Software Development & Architect | Database & Server Management | Business & Tech Mentor | IT Support | Bridging Technology, Business and Learning
+      </Typography>
+      <Typography itemProp="locationsLanguages" className={classes.paragraph2}>
+      <span className={classes.locations}>Berlin & Remote. German & English</span>
       </Typography>
       <Buttons />
     </Box>
