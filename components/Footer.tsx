@@ -23,6 +23,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import SendIcon from "@material-ui/icons/Send";
 import CloseIcon from "@material-ui/icons/Close";
+import PolicyIcon from "@material-ui/icons/Policy";
 import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -190,6 +191,15 @@ function Footer() {
                   >
                     <MailIcon fontSize="large" className={classes.icon} />
                     <Typography>ps@psteger.com</Typography>
+                  </Link>
+
+                  <Link
+                    className={classes.socialItem}
+                    href="/impressum"
+                    color="inherit"
+                  >
+                    <PolicyIcon fontSize="large" className={classes.icon} />
+                    <Typography>Impressum</Typography>
                   </Link>
                 </Grid>
 

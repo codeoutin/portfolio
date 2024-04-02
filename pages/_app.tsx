@@ -409,16 +409,6 @@ export function MyApp({ Component, pageProps }: AppProps) {
                     All Projects
                   </Button>
                 </Link>
-                <Link href="https://www.superprof.de/ir/22599685-47d647" passHref>
-                  <Button
-                    className={classes.navbarRightButtons}
-                    component="a"
-                    href="https://www.superprof.de/ir/22599685-47d647"
-                    color="inherit"
-                  >
-                    Book Lesson
-                  </Button>
-                </Link>
                 {NavBarButton("Contact me", "contact")}
               </Box>
             </Hidden>
